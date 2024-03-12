@@ -22,6 +22,7 @@ print("Friend list: " + ", ".join(friends_list) + ".")
 friends_list.insert(1, 'Basil')
 print("Friend list: " + ", ".join(friends_list) + ".")
 friends_list.append('Kira')
+print(*friends_list, sep=", ")
 print("Friend list: " + ", ".join(friends_list) + ".")
 # for i in friends_list:
 #      print(f'Hey, {i}! You have been invited to my birthday party! See you soon.')
